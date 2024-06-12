@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "UE5.3-Nekohoshi",
+	"EngineAssociation": "5.4-Neko",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -24,25 +24,6 @@
 			]
 		},
 		{
-			"Name": "RestartEditor",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a00eb1e478ae4a8fb655aa22f9125b07"
-		},
-		{
-			"Name": "DLSS",
-			"Enabled": false,
-			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
-		},
-		{
-			"Name": "Streamline",
-			"Enabled": false,
-			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
-		},
-		{
-			"Name": "Paper2D",
-			"Enabled": false
-		},
-		{
 			"Name": "CommonUI",
 			"Enabled": true
 		},
@@ -53,12 +34,14 @@
 		{
 			"Name": "CrystalNodes",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/795d430fe08640bcb9f3f52c996a62a0"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/795d430fe08640bcb9f3f52c996a62a0",
+			"Optional": true
 		},
 		{
 			"Name": "ElectronicNodes",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5cb2a394d0c04e73891762be4cbd7216"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5cb2a394d0c04e73891762be4cbd7216",
+			"Optional": true
 		},
 		{
 			"Name": "CommonMaps",
@@ -79,21 +62,6 @@
 		{
 			"Name": "OnlineSubsystemEOS",
 			"Enabled": true
-		},
-		{
-			"Name": "OnlineSubsystemIOS",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"IOS",
-				"TVOS"
-			]
-		},
-		{
-			"Name": "OnlineSubsystemGooglePlay",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Android"
-			]
 		},
 		{
 			"Name": "EnhancedOnlineSubsystem",
