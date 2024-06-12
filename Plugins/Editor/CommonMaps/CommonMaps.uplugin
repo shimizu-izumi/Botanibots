@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 4,
+	"VersionName": "1.4",
+	"FriendlyName": "Common Maps",
+	"Description": "Common Maps as a plugin from Lyra Starter Example Project.",
+	"Category": "Editor",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CommonMaps",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false
+}

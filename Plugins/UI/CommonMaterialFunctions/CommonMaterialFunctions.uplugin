@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1",
+	"FriendlyName": "Common UI Material Functions",
+	"Description": "Plugin that contains basic Material Functions which help making custom Materials.",
+	"Category": "UI",
+	"CreatedBy": "MajorT",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab?sessionInvalidated=true",
+	"SupportURL": "https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab?sessionInvalidated=true",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"NoCode": true
+}
