@@ -53,7 +53,7 @@ void ABotaniProjectileBase::ExplodeProjectile()
 		return;
 	}
 
-	TArray<TObjectPtr<AActor>> HitActors;
+	TArray<AActor*> HitActors;
 	TArray<TObjectPtr<AActor>> IgnoredActors;
 	TArray<TEnumAsByte<EObjectTypeQuery>> ObjectTypes;
 	ObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_Pawn));
